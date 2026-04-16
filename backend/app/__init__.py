@@ -1,0 +1,1 @@
+"""Performance Test App — FastAPI backend package."""

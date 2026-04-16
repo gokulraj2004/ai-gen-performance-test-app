@@ -1,0 +1,121 @@
+{
+  "project_name": "Performance Test App",
+  "tech_stack": {
+    "project_name": "Performance Test App",
+    "frontend": {
+      "framework": "React",
+      "language": "TypeScript",
+      "styling": "TailwindCSS",
+      "package_manager": "npm"
+    },
+    "backend": {
+      "framework": "FastAPI",
+      "language": "Python",
+      "orm": "SQLAlchemy"
+    },
+    "database": {
+      "db_type": "PostgreSQL",
+      "version": "15"
+    },
+    "features": [
+      "Authentication (JWT)",
+      "Docker support (Dockerfile + docker-compose)",
+      "README with setup instructions",
+      "Environment variables (.env.example)"
+    ],
+    "architecture_type": "monolithic",
+    "service_connection_urls": [],
+    "environments": [
+      "development",
+      "staging",
+      "production"
+    ],
+    "github_repository": null
+  },
+  "quality_score": 82.7,
+  "passed": true,
+  "files_created": 97,
+  "token_usage": {
+    "total_input_tokens": 326368,
+    "total_output_tokens": 88095,
+    "total_tokens": 414463,
+    "api_calls": 11,
+    "calls": [
+      {
+        "agent": "generator_backend_core",
+        "input_tokens": 8108,
+        "output_tokens": 11335,
+        "duration_seconds": 124.41
+      },
+      {
+        "agent": "generator_backend_api",
+        "input_tokens": 8100,
+        "output_tokens": 14416,
+        "duration_seconds": 141.36
+      },
+      {
+        "agent": "generator_frontend",
+        "input_tokens": 8113,
+        "output_tokens": 16000,
+        "duration_seconds": 145.53
+      },
+      {
+        "agent": "generator_infra",
+        "input_tokens": 8124,
+        "output_tokens": 5136,
+        "duration_seconds": 63.23
+      },
+      {
+        "agent": "reviewer",
+        "input_tokens": 49533,
+        "output_tokens": 3530,
+        "duration_seconds": 61.26
+      },
+      {
+        "agent": "security",
+        "input_tokens": 42738,
+        "output_tokens": 3389,
+        "duration_seconds": 73.65
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 18020,
+        "output_tokens": 15999,
+        "duration_seconds": 163.03
+      },
+      {
+        "agent": "reviewer",
+        "input_tokens": 56096,
+        "output_tokens": 3346,
+        "duration_seconds": 59.24
+      },
+      {
+        "agent": "security",
+        "input_tokens": 49301,
+        "output_tokens": 2989,
+        "duration_seconds": 62.55
+      },
+      {
+        "agent": "fixer",
+        "input_tokens": 16105,
+        "output_tokens": 11044,
+        "duration_seconds": 102.23
+      },
+      {
+        "agent": "evaluator",
+        "input_tokens": 62130,
+        "output_tokens": 911,
+        "duration_seconds": 25.53
+      }
+    ]
+  },
+  "duration_seconds": 903.38,
+  "created_at": "2026-04-16T22:45:01.733713+00:00",
+  "enhancements": {
+    "parallel_review": true,
+    "chunked_generation": true,
+    "checkpointing": true,
+    "incremental_fixing": true,
+    "validator": true
+  }
+}
